@@ -1332,7 +1332,6 @@ img {
 
 .contacts__map {
   height: 450px;
-  background: #fef0b4;
 }
 
 .contacts__item {
@@ -1420,6 +1419,8 @@ img {
   }
 
   .contacts__map {
+    display: flex;
+    justify-content: center;
     margin: 0 -20px;
     height: 300px;
   }
@@ -1552,3 +1553,47 @@ img {
   }
 }
 /* popup end */
+
+.contacts__iframe{
+    width: 580px;
+    height: 450px;
+}
+
+@media (max-width: 1170px) {
+    .contacts__iframe{
+        width: 480px;
+    }
+}
+
+@media (max-width: 960px) {
+    .contacts__iframe{
+        width: 420px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 840px) {
+    .contacts__iframe{
+        width: 390px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts__iframe{
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 610px) {
+    .contacts__iframe{
+        width: 450px;
+    }
+}
+
+@media (max-width: 460px) {
+    .contacts__iframe{
+        width: 300px;
+    }
+}
+
